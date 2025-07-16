@@ -8,7 +8,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
 type ExtensionPreferences = {
-  /** Retry Count - The number of times to retry a failed search (default: ) */
+  /** Retry Count - The number of times to retry a failed search (default: 4) */
   "retries": string,
   /** Sleep Time - The time (in milliseconds) to sleep between retries (default: 2000) */
   "sleep": string,
