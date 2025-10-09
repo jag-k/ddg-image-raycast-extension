@@ -13,7 +13,9 @@ type ExtensionPreferences = {
   /** Sleep Time - The time (in milliseconds) to sleep between retries (default: 2000) */
   "sleep": string,
   /** Locale - The locale of the search (default: en-us) */
-  "locale": string
+  "locale": string,
+  /** Save Directory - Directory where images will be saved (default: ~/Downloads) */
+  "saveDirectory": string
 }
 
 /** Preferences accessible in all the extension's commands */
